@@ -37,7 +37,10 @@ public class EmployeeController {
                 employee.setId(rs.getString("id"));
                 employee.setEmployeeId(rs.getString("employee_id"));
                 employee.setFirstName(rs.getString("firstname"));
-
+                employee.setLastName(rs.getString("lastname"));
+                employee.setEmail(rs.getString("email"));
+                employee.setSex(rs.getString("sex"));
+                employee.setAge(rs.getString("age"));
                 list.add(employee);
             }
 
