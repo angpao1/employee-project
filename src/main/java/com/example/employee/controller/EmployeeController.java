@@ -37,7 +37,7 @@ public class EmployeeController {
                 employee.setId(rs.getString("id"));
                 employee.setEmployeeId(rs.getString("employee_id"));
                 employee.setFirstName(rs.getString("firstname"));
-                
+
                 list.add(employee);
             }
 
